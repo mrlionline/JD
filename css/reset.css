@@ -1,0 +1,53 @@
+/*清除默认*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font:12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif}
+body,html{
+	width: 100%;
+}
+body{
+	background-color: #F6F6F6;
+}
+i{font-style: normal;}
+img{border:none;}
+li{list-style:none;display: list-item;}
+input,select,textarea{outline:none;font-family:'Microsoft YaHei'; }
+textarea{resize:none;}
+a{text-decoration:none;}
+/*清除浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+
+.w{
+	width: 1190px;
+	margin:0 auto;
+	position: relative;
+}
+
+/*header和fs菜单轮播图区用的左中右*/
+.grid_l{
+	float: left;
+	width: 190px;
+	margin-right: 10px;
+}
+.grid_m{
+	float: left;
+	width: 790px;
+	margin-right: 10px;
+}
+.grid_r{
+	float: left;
+	width: 190px;
+}
+/*header和fs菜单轮播图区用的左中右*/
+
+span.loading{
+	background: url(../images/lazyload.gif) no-repeat;
+	display: block;
+	width: 100px;
+	height: 90px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left: -50px;
+	margin-top: -45px;
+}

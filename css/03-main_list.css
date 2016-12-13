@@ -1,0 +1,191 @@
+/*左侧菜单区 start*/
+#main_list{
+	position: relative;
+	background: #6c6669;
+	padding:15px 0;
+	font-size: 0;
+}
+
+#main_list .list .list-item{
+	height: 30px;
+	line-height: 30px;
+	padding-left: 12px;
+}
+
+#main_list .list .list-item:hover{
+	background: #999395;
+}
+
+#main_list .list .list-item:hover .submenu{
+	display: block;
+}
+
+#main_list .list .list-item>a{
+	color:#fff;
+	font-size: 14px;
+}
+
+#main_list .list .list-item>a:hover{
+	color:#c81623;
+}
+
+#main_list .list .list-item>span.line{
+	color:#FFF;
+	padding:0 4px;
+	font-size: 12px;
+}
+
+/*左侧菜单区 end*/
+
+/*右侧子菜单区 start*/
+#main_list .list .list-item .submenu{
+	z-index: 15;
+	display: none;
+	position: absolute;
+	left: 190px;
+	top: 0;
+	border:1px solid #f7f7f7;
+	background: #f7f7f7;
+	width: 963px;
+	min-height: 448px;
+	box-shadow: 2px 0 5px rgba(0,0,0,.3);
+	padding:20px 15px 10px 20px;
+}
+
+#main_list .list .list-item .submenu .menu_l{
+	width: 780px;
+	float: left;
+}
+
+#main_list .list .list-item .submenu .menu_l>a{
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	padding:0 10px;
+	background: #7c7171;
+	color:#fff;
+	font-size: 12px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#main_list .list .list-item .submenu .menu_l>a:hover{
+	background:#5c5251;
+}
+
+#main_list .list .list-item .submenu .menu_l>a>i{
+	display: inline-block;
+	width: 12px;
+	height: 9px;	
+	margin-left: 5px;
+	background: url(../images/03-main_list/右箭头.png) no-repeat center center;
+}
+
+#main_list .list .list-item .submenu .menu_l dl{
+	font-size: 12px;
+	padding:0 0 2px 80px;
+}
+#main_list .list .list-item .submenu .menu_l dl dt{
+	float: left;
+	margin-left: -80px;
+	padding-top: 10px;
+	width: 80px;
+	text-align: right;
+	height: 16px;
+	line-height: 16px;
+}
+
+#main_list .list .list-item .submenu .menu_l dl dt a{
+	color:#666;
+	font-weight: 700;
+}
+
+#main_list .list .list-item .submenu .menu_l dl dt a i{
+	display: inline-block;
+	width: 6px;
+	height: 9px;
+	background: url(../images/03-main_list/右箭头2.png) no-repeat;
+	margin:0 13px 0 8px;
+}
+
+#main_list .list .list-item .submenu .menu_l dl dt a:hover{
+	color:#c81623;
+}
+#main_list .list .list-item .submenu .menu_l dl dt a:hover i{
+	background: url(../images/03-main_list/右箭头3.png) no-repeat
+}
+
+#main_list .list .list-item .submenu .menu_l dl dd{
+	border-top: solid 1px #eeeeee;
+	padding-top: 10px;
+}
+
+#main_list .list .list-item .submenu .menu_l dl dd.first_dd{
+	border-top: none;
+}
+
+#main_list .list .list-item .submenu .menu_l dl dd a{
+	color:#666;
+	float: left;
+	padding:0 10px;
+	height: 16px;
+	line-height: 16px;
+	border-left: solid 1px #e0e0e0;
+	margin-bottom: 8px;
+
+}
+#main_list .list .list-item .submenu .menu_l dl dd a:hover{
+	color:#c81623;
+}
+
+#main_list .list .list-item .submenu .menu_l .l_l{
+	float: left;
+	width: 370px;
+	padding-right: 19px;
+	margin-right: 20px;
+	border-right: solid 1px #eeeeee;
+}
+#main_list .list .list-item .submenu .menu_l .l_r{
+	float: left;
+}
+
+	/*右侧图片广告区 start*/
+#main_list .list .list-item .submenu .menu_r{
+	float: right;
+	width: 168px;
+	margin-right: -1px;
+	height: 100px;
+	line-height: 0;
+}
+
+#main_list .list .list-item .submenu .menu_r .r_t{
+	margin-bottom: 10px;
+}
+
+#main_list .list .list-item .submenu .menu_r .r_t a{
+	display: inline-block;
+	width: 83px;
+	height: 35px;
+	margin:0 1px 1px 0;
+	overflow: hidden;
+	background: #e7e7e7;
+}
+
+#main_list .list .list-item .submenu .menu_r a img{
+	width: 100%;
+	height: 100%;
+}
+
+#main_list .list .list-item .submenu .menu_r .r_b a{
+	display: inline-block;
+	width: 168px;
+	height: 134px;
+	overflow: hidden;
+	margin-bottom: 1px;
+	margin-left: -1px;
+}
+
+
+	/*右侧图片广告区 end*/
+
+/*右侧子菜单区 end*/

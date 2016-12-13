@@ -1,0 +1,59 @@
+
+/*section-14  start*/
+.section_14{
+	margin-top: 30px;
+}
+.section_14 .bd_list{
+	margin-left: -10px;
+}
+.section_14 .bd_list .bd_item{
+	float: left;
+	margin:0 0 10px 10px;
+}
+.section_14 .bd_list .bd_item:hover .bd_lk{
+	border-color: #f10214;
+	color:#c81623;
+}
+.section_14 .bd_list .bd_item .bd_lk{
+	display: block;
+	padding: 4px;
+	width: 220px;
+	height: 305px;
+	border:1px solid #fff;
+	background: #FFF;
+	text-align: center;
+	overflow: hidden;
+	color:#666;
+	font-size: 0;
+}
+.section_14 .bd_list .bd_item .bd_lk .bd_img{
+	display: inline-block;
+	width: auto;
+	height: 220px;
+	background-color: #f7f7f7;
+}
+.section_14 .bd_list .bd_item .bd_lk .bd_item_info{
+	padding: 10px;
+	text-align: left;
+}
+.section_14 .bd_list .bd_item .bd_lk .bd_item_info .bd_item_tit{
+	overflow: hidden;
+	height: 36px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+.section_14 .bd_list .bd_item .bd_lk .bd_item_info .bd_item_price{
+	color:#f10214;
+	font-size: 0;
+}
+.section_14 .bd_list .bd_item .bd_lk .bd_item_info .bd_item_price i{
+	margin-right: 3px;
+	font-family: arial;
+	font-weight: 400;
+	font-size: 12px;
+	font-style: normal;
+}
+.section_14 .bd_list .bd_item .bd_lk .bd_item_info .bd_item_price span{
+	font-size: 16px;
+}
+/*section-14  end*/

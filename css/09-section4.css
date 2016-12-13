@@ -1,0 +1,110 @@
+
+.ftit{
+	background: url(../images/08-section-4/dot.png) repeat-x 0 18px;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	margin-bottom: 20px;
+	font-size: 24px;
+	text-align: center;
+}
+.ftit h3{
+	display: inline;
+	padding:0 50px;
+	background-color: #f6f6f6;
+	font-size: 26px;
+	font-weight: 400;
+	color:#333;
+	font-family: fz;
+}
+
+.entry_list{
+	width: 1200px;
+	margin-left: -10px;
+	overflow: hidden;
+}
+.entry_list li{
+	float: left;
+	position: relative;
+	overflow: hidden;
+	margin:0 0 10px 10px;
+	background: #FFF;
+}
+.entry_list li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.entry_list li .entry_bg{
+	width: 36%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color:#FFF;
+	opacity: .9;
+}
+.entry_list li .entry_bg .entry_info{
+	margin:0 auto;
+}
+.entry_list li .entry_bg .entry_info h4{
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	font-family: fz;
+}
+.entry_list li .entry_bg .entry_info p{
+	height: 32px;
+	line-height: 16px;
+	margin-top: 8px;
+	overflow: hidden;
+}
+
+.section_4 .entry_list{
+	height: 350px;
+}
+.section_4 .entry_list li{
+	width: 390px;
+	height: 170px;
+}
+.section_4 .entry_list li .entry_bg{
+	z-index: 1;
+}
+.section_4 .entry_list li.list_item1 .entry_bg{
+	background: #d58717;
+}
+.section_4 .entry_list li.list_item2 .entry_bg{
+	background: #3b838c;
+}
+.section_4 .entry_list li.list_item3 .entry_bg{
+	background: #534b5d;
+}
+.section_4 .entry_list li.list_item4 .entry_bg{
+	background: #a93931;
+}
+.section_4 .entry_list li.list_item5 .entry_bg{
+	background: #642663;
+}
+.section_4 .entry_list li.list_item6 .entry_bg{
+	background: #7e5944;
+}
+.section_4 .entry_list li .entry_bg .entry_info{
+	width: 100px;
+	padding-top: 45px;
+	font-size: 14px;
+}
+.section_4 .entry_list li img{
+	display: block;
+	width: 400px;
+	height: 170px;
+	transition: transform .3s ease-in;
+}
+.section_4 .entry_list li a:hover img{
+	transform: translateX(-10px);
+}

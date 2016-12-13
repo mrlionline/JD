@@ -1,0 +1,165 @@
+.section_3{
+	background-color: #FFF;
+	height: 215px;
+	margin-top: 30px;
+}
+.section_3 .coupon_hd{
+	float: left;
+	width: 190px;
+	height: 215px;
+	background-color: #ea3524;
+	font-size: 0;
+}
+
+.section_3 .coupon_hd .coupon_hd_lk{
+	display: block;
+	width: 140px;
+	height: 165px;
+	padding:25px;
+	color:#FFF;
+}
+
+.section_3 .coupon_hd .coupon_hd_lk .hd_lk_tit{
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	font-size: 30px;
+	font-weight: 400;
+	font-family: fz;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.section_3 .coupon_hd .coupon_hd_lk .hd_lk_entry{
+	display: block;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	width: 55px;
+	height: 3px;
+	background-color: #FFF;
+}
+
+.section_3 .coupon_hd .coupon_hd_lk .hd_lk_txt{
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	word-break: break-all;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 12px;
+}
+
+.section_3 .coupon_hd .coupon_hd_lk .hd_lk_entry_btn{
+	display: block;
+	position: relative;
+	margin-top: 20px;
+	padding:2px 35px 4px 15px;
+	height: 20px;
+	line-height: 20px;
+	border:2px solid #fff;
+	overflow: hidden;
+	font-size: 12px;
+}
+.section_3 .coupon_hd .coupon_hd_lk .hd_lk_entry_btn .hd_lk_entry_btn_ico{
+	background: url(../images/sprite_index@1x.png) no-repeat -154px -40px;
+	background-size: 218px 188px;
+	position: absolute;
+	right: 15px;
+	top: 5px;
+	width: 15px;
+	height: 16px;
+}
+
+.section_3 .coupon_bd{
+	padding:10px 0;
+	float: right;
+}
+
+.section_3 .coupon_bd li{
+	position: relative;
+	float: left;
+	width: 199px;
+	height: 195px;
+	border-right: 1px solid #e7e7e7;
+	overflow: hidden;
+}
+.section_3 .coupon_bd li:last-child{
+	border-right: none;
+	width: 200px;
+}
+.section_3 .coupon_bd li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.section_3 .coupon_bd li a div{
+	z-index: 1;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	width: 100px;
+	border-top: 3px solid #e93524;
+	background-color: #FFF;
+}
+.section_3 .coupon_bd li a div p.price{
+	height: 36px;
+	line-height: 36px;
+	font-size: 34px;
+	font-weight: 700;
+	margin-top: 7px;
+	overflow: hidden;
+	color:#f10214;
+}
+.section_3 .coupon_bd li a div p.price i{
+	margin-right: 3px;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: arial;
+}
+.section_3 .coupon_bd li a div p.desc{
+	overflow: hidden;
+	margin: 3px;
+	height: 36px;
+	line-height: 18px;
+	color:#e93524;
+}
+
+.section_3 .coupon_bd li a div p.limit{
+	width: 80px;
+	height: 36px;
+	padding:15px 10px;
+	overflow: hidden;
+	background: #E7E7E7 url(../images/06-section-3/a.jpg) repeat-x 0 0;
+	color:#666;
+}
+.section_3 .coupon_bd li a div p.more{
+	overflow: hidden;
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+	background: #e93524;
+	color:#FFF;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+}
+.section_3 .coupon_bd li a:hover img{
+	transform: translateX(15px);
+}
+.section_3 .coupon_bd li a img{
+	position: absolute;
+	right: 15px;
+	top: 25px;
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+	transition: transform .5s;
+}
+.section_3 .coupon_bd li span.shadow{
+	position: absolute;
+	left: 100px;
+	top: 33px;
+	width: 15px;
+	height: 117px;
+	box-shadow: 0 0 30px #999;
+}

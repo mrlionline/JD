@@ -1,0 +1,293 @@
+#shortcut{
+	height: 30px;
+	width: 100%;
+	background: #e3e4e5;
+	border-bottom: solid 1px #DDD;
+}
+
+#shortcut .choseProvince{
+	float: left;
+	position: relative;
+	display: inline-block;
+	margin-left: 200px;
+}
+
+#shortcut .choseProvince span{
+	position: relative;
+	z-index: 15;
+	display: inline-block;
+	background: url(../images/shortcut/addressIcon.png) no-repeat 8px center;
+	text-indent: 24px;
+	/*min-width: 55px;*/
+	padding-right: 7px;
+	height: 29px;
+	line-height: 29px;
+	border:solid 1px #e3e4e5;
+	border-bottom: solid 1px #DDD;
+	color:#999;
+}
+
+#shortcut .choseProvince:hover span{
+	z-index: 15;
+	background-color: #FFF;
+	border:solid 1px #CCC;
+	border-bottom: solid 1px #FFF;
+}
+
+#shortcut .choseProvince .provinceList{
+	z-index: 10;
+	display: none;
+	position: absolute;
+	text-indent: 0;
+	width: 300px;
+	font-size: 0;
+	padding:12px 10px 8px 10px;
+	border:solid 1px #CCC;
+	border-top: solid 1px #CCC;
+	margin-top: -1px;
+	background: #FFF;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+}
+
+#shortcut .choseProvince .provinceList div{
+	display: inline-block;
+	width: 60px;
+	height: 24px;
+	margin-bottom: 4px;
+	text-align: left;
+}
+
+#shortcut .choseProvince .provinceList div a{
+	display: inline-block;
+	font-size: 12px;
+	color:#999;
+	padding:0 8px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	
+}
+
+#shortcut .choseProvince .provinceList div a.active{
+	background: #f10215;
+	color:#FFF;
+}
+
+#shortcut .choseProvince .provinceList div a.active:hover{
+	background: #f10215;
+	color:#FFF;
+}
+
+#shortcut .choseProvince .provinceList div a:hover{
+	background: #f4f4f4;
+	color:#c81623;
+}
+
+#fr{
+	float: right;
+}
+
+#fr>li{
+	position: relative;
+	float: left;
+	height: 30px;
+	line-height: 29px;
+	font-size: 12px;
+}
+
+#fr li.line{
+	width: 1px;
+	height: 10px;
+	background: #cccccc;
+	margin:12px 5px 0;
+}
+
+#fr li div a{
+	color:#999;
+}
+
+#fr li div a:hover{
+	color:#c81623;
+}
+#fr li div a.freeReg{
+	color:#f10215;
+}
+#fr li div a.freeReg:hover{
+	color:#c81623;
+}
+
+#fr li div i.xjt{
+	display: inline-block;
+	margin-left: 6px;
+	width: 9px;
+	height: 5px;
+	background: url(../images/shortcut/xjt.png);
+}
+
+#fr li div.frHead{
+	padding:0 6px;
+	height: 29px;
+	border:solid 1px #e3e4e5;
+	border-bottom: solid 1px #DDD ;
+}
+
+#fr li:hover div.moreShortcut{
+	position: relative;
+	z-index: 15;
+	background: #FFF;
+	border:solid 1px #CCC;
+	border-bottom: solid 1px #FFF;
+}
+
+#fr li:hover div.moreItem{
+	display: block;
+}
+
+#fr li div.moreItem{
+	display: none;
+	z-index: 10;
+	position: absolute;
+	border:solid 1px #CCC;
+	margin-top: -1px;
+	background: #FFF;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+}
+
+/*我的京东 start*/
+#fr li.myJD div.moreItem{
+	padding-top: 10px;
+	padding-bottom: 11px;
+	width: 280px;
+}
+
+#fr li.myJD div.moreItem .noLoginImg{
+	float: left;
+	padding-left: 15px;
+	margin-right: 10px;
+	width: 60px;
+	height: 60px;
+}
+#fr li.myJD div.moreItem .noLoginImg img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+#fr li.myJD div.moreItem .pleaseLogin{
+	float: left;
+}
+
+#fr li.myJD div.moreItem .pleaseLogin h4{
+	font-size: 12px;
+	line-height: 24px;
+	margin-top: 6px;
+	color:#999;
+	margin-bottom: -2px;
+	cursor: pointer;
+	color:#c81623;
+}
+
+#fr li.myJD div.moreItem .pleaseLogin a{
+	font-size: 12px;
+	color:#999;
+	/*margin-top: -2px;*/
+}
+
+#fr li.myJD div.moreItem a:hover{
+	color:#c81623;
+}
+
+#fr li.myJD div.moreItem .otherList{
+	clear: both;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+#fr li.myJD div.moreItem .otherList ul li{
+	float: left;
+	width: 126px;
+	text-align: left;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+#fr li.myJD div.moreItem .otherList ul li a{
+	color:#999;
+}
+#fr li.myJD div.moreItem .otherList ul li a:hover{
+	color:#c81623;
+}
+/*我的京东 end*/
+
+
+/*客户服务 start*/
+#fr li.customerService .moreItem{
+	font-size: 12px;
+	line-height: 24px;
+	min-width: 170px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	right: 0;
+}
+
+#fr li.customerService .moreItem dt{
+	margin-left: 15px;
+	font-weight: 700;
+	color:#666;
+}
+
+#fr li.customerService .moreItem dd{
+	width: 70px;
+	margin-left: 15px;
+	float: left;
+}
+
+#fr li.customerService .moreItem .customer{
+	border-bottom: dotted 1px #eeeeee;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+/*客户服务 end*/
+
+
+/*网站导航 start*/
+#fr li.allNav .moreItem{
+	padding: 15px 0;
+	right: 0;
+	font-size: 12px;
+	line-height: 24px;
+	width: 1190px;
+}
+
+#fr li.allNav .moreItem .item{
+	float: left;
+	height: 149px;
+	padding-left: 20px;
+	border-right: solid 1px #eeeeee;
+}
+
+#fr li.allNav .moreItem .item1{
+	width: 340px;
+}
+
+#fr li.allNav .moreItem .item2,
+#fr li.allNav .moreItem .item3,
+#fr li.allNav .moreItem .item4{
+	width: 255px;
+}
+
+#fr li.allNav .moreItem .item4{
+	border-right: none;
+}
+
+#fr li.allNav .moreItem dt{
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+#fr li.allNav .moreItem dd{
+	float: left;
+	width: 85px;
+
+}
+/*网站导航 end*/

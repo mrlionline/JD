@@ -1,0 +1,184 @@
+#header{
+	height: 140px;
+}
+
+#header .logo{
+	height: 170px;
+	margin-top: -31px;
+	background: #FFF;
+	box-shadow: 0 -12px 10px rgba(0,0,0,.2);
+}
+
+#header .grid_m{
+	height: 140px;
+	position: relative;
+}
+
+#header .grid_m .search{
+	width: 550px;
+	margin:0 auto;
+	position: relative;
+	top: 25px;
+	font-size: 0;
+}
+
+#header .grid_m .search form{
+	height: 35px;
+	margin-bottom: 6px;
+}
+
+#header .grid_m .search .searchText{
+	position: absolute;
+	width: 490px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	padding:4px;
+	border:solid 1px #f10215;
+}
+
+#header .grid_m .search .searchBtn{
+	position: absolute;
+	right: 0;
+	width: 50px;
+	height: 35px;
+	border:none;
+	background: #f10215 url(../images/02-header/搜索.png) no-repeat center center;
+	background-size: 19px 20px;
+	cursor: pointer;
+}
+
+#header .grid_m .search a{
+	color:#999;
+	margin:0 10px 0 0;
+	font-size: 12px;
+}
+
+#header .grid_m .search a:hover{
+	color:#c81623;
+}
+
+#header .grid_m .search a.style_red{
+	color:#f10215;
+}
+
+#header .grid_m .search a.style_red:hover{
+	color:#c81623;
+}
+
+/*横向主导航 start*/
+#header .grid_m .navItem{
+	position: absolute;
+	bottom: 0;
+}
+
+#header .grid_m .navItem .item{
+	float: left;
+}
+
+#header .grid_m .navItem li{
+	float: left;
+	margin-left: 30px;
+}
+
+#header .grid_m .navItem li a{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: 700;
+	color:#666;
+}
+
+#header .grid_m .navItem li a:hover{
+	color:#c81623;
+}
+
+#header .grid_m .navItem div.line{
+	width: 1px;
+	height: 10px;
+	background: #CCC;
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-right: -10px;
+}
+/*横向主导航 end*/
+
+/*grid_r 购物车  start*/
+#header .grid_r .cart{
+	position: relative;
+	width: 188px;
+	height: 33px;
+	line-height: 33px;
+	border:solid 1px #CCC;
+	margin-top: 25px;
+	text-align: center;
+	background: #FFF;
+}
+
+#header .grid_r .cart:hover a{
+	border-bottom: solid 1px #FFF;
+}
+
+#header .grid_r .cart:hover .cartContent{
+	display: block;
+}
+
+#header .grid_r .cart a{
+	position: relative;
+	z-index: 5;
+	display: inline-block;
+	background: url(../images/02-header/购物车.png) no-repeat 52px center;
+	text-indent: 23px;
+	width: 100%;
+	height: 33px;
+	border-bottom: solid 1px #CCC;
+	color:#f10214;
+}
+
+#header .grid_r .cart i{
+	position: absolute;
+	left: 140px;
+	top: 5px;
+	display: inline-block;
+	font-style: normal;
+	border-radius: 7px;
+	background: #f10215;
+	font-size: 12px;
+	line-height: 12px;
+	min-width: 12px;
+	color:#FFF;
+	padding:1px;
+	text-align: center;
+}
+
+#header .grid_r .cart .cartContent{
+	display: none;
+	text-align: left;
+	z-index: 1;
+	position: absolute;
+	right: -1px;
+	margin-top: -1px;
+	background: #FFF;
+	width: 308px;
+	border:solid 1px #CCC;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+}
+
+#header .grid_r .cart .cartContent .empty{
+	height: 49px;
+	line-height: 49px;
+	padding:10px 15px;
+	color:#999;
+}
+
+#header .grid_r .cart .cartContent .empty b{
+	display: inline-block;
+	float: left;
+	width: 56px;
+	height: 49px;
+	margin-left: 30px;
+	background: url(../images/02-header/58004d6dN2927f0f7.png);
+}
+/*grid_r 购物车  end*/

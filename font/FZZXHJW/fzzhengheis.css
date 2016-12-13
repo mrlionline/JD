@@ -1,0 +1,8 @@
+
+@font-face {font-family: "fz";
+  src: url('FZZXHJW.eot?t=1479875362272'); /* IE9*/
+  src: url('FZZXHJW.eot?t=1479875362272#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('FZZXHJW.woff?t=1479875362272') format('woff'), /* chrome, firefox */
+  url('FZZXHJW.TTF?t=1479875362272') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('FZZXHJW.svg?t=1479875362272#iconfont') format('svg'); /* iOS 4.1- */
+}
